@@ -1,0 +1,42 @@
+Employee Performance Dashboard
+
+An interactive Power BI dashboard tracking employee quality and performance KPIs — built to monitor task sampling, defect rates, and error trends across supervisors and work locations.
+
+Overview
+
+This dashboard tracks quality-control performance at the employee level. It surfaces core KPIs (task volume, sampling coverage, defect rate, fatal error rate, and an overall quality score) and lets you break them down by employee, supervisor, work location, and date.
+
+Tools Used
+Power BI Desktop
+Power Query (data loading & transformation)
+DAX (calculated measures)
+Data Modeling
+Data Model
+
+Core table: Quality Data, with fields including:
+
+EMP Name, Supervisor, Work Location, Date
+Total Task, Samples
+Defects, Fatel Errors
+Calculated measures: Sampling Percentage, Defect Percentage, Fatal Error Percentage, Quality Score
+Dashboard Contents
+KPI Cards: Total Tasks, Samples, Sampling %, Defects, Defect %, Fatal Errors, Fatal Error %
+Gauge: Overall Quality Score against target
+Scatter Chart: Quality Score by Employee — spot top and bottom performers at a glance
+Line Chart: Quality Score trend over time
+Donut Chart: Quality Score breakdown by Supervisor
+Clustered Bar Chart: Sampling Percentage by Supervisor
+Map: Quality Score by Work Location
+Date Slicer: filter the entire dashboard by time period
+File
+
+Employee_Performance_Dashboard.pbix — open in Power BI Desktop to explore.
+
+Key Insights
+Identifies which employees and supervisors have the highest/lowest quality scores
+Flags locations or teams with elevated defect or fatal error rates
+Tracks whether sampling coverage is consistent enough to trust the quality metrics
+Shows performance trends over time to catch drops early
+
+Author
+Sakshi Patil
